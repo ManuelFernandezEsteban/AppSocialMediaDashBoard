@@ -1,0 +1,23 @@
+
+    <article class="box-data">
+        <div class="box_data_content">
+            <span *ngIf="pos%2===0 && datosMedia.red==='faceBook'">Page Views</span>
+            <span *ngIf="pos%2!=0  && (datosMedia.red==='faceBook' || datosMedia.red==='twitter' ) ">Likes</span>
+            <span *ngIf="pos%2!=0  && datosMedia.red==='instagram' ">Profile Views</span>
+            <span *ngIf="pos%2===0  && (datosMedia.red==='instagram') ">Likes</span>
+            <span *ngIf="pos%2===0  && (datosMedia.red==='twitter') ">Retweets</span>
+            <span *ngIf="pos%2===0  && (datosMedia.red==='youTube') ">Likes</span>
+            <span *ngIf="pos%2!=0  && (datosMedia.red==='youTube') ">Total Views</span>
+            <img src="{{datosMedia.icon_src}}" alt="{{datosMedia.icon_alt}}">
+        </div>
+        <div class="box_data_content">
+            <h2 *ngIf="pos%2===0">{{datosDetalle.pageViews}}</h2>
+            <h2 *ngIf="pos%2!=0">{{datosDetalle.likes}}</h2>
+            <span class="porcentaje" [ngClass]="color(datosDetalle.increment)">
+                <img *ngIf="color(datosDetalle.increment)==='red'" src="../../../assets/images/icon-down.svg" alt="icon down">
+                <img *ngIf="color(datosDetalle.increment)==='green'" src="../../../assets/images/icon-up.svg" alt="icon up">
+                {{datosDetalle.increment}}%
+            </span>
+        </div>
+
+    </article>

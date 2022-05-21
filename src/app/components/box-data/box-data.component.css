@@ -1,0 +1,40 @@
+
+.box-data{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    height: 120px;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: var(--cardBGColor);    
+    cursor: pointer;
+}
+.box-data:hover{
+    background-color: var(--cardBGColorHover)
+}
+
+.box_data_content{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+.box_data_content > span:first-child{
+    color: var(--textSecundary);
+}
+.box_data_content > h2{
+    color: var(--textPrincipal);
+    font-size: 2rem;
+}
+.box_data_content:last-child{
+    margin-top: 20px;
+}
+.porcentaje{
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.porcentaje > img{
+    margin-right: 3px;
+}

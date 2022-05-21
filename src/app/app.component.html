@@ -1,0 +1,30 @@
+
+
+<app-box-superior [total]="total"></app-box-superior>
+
+
+<div class="container">
+    <div class="grid-superior">
+        <app-box-principal *ngFor="let item of social.Media" class="box" ngClass="{{item.red}}" [item]="item">
+        </app-box-principal>
+    </div>
+
+    <div class="overview">Overview - Today </div>
+
+
+    <div class="grid-inferior">
+        <div *ngFor="let media of social.Media">
+            <app-box-data *ngFor="let item of media.details.data; let indice = index" [datosDetalle]="item"
+                [datosMedia]="media" [pos]="indice">
+            </app-box-data>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+  
+  

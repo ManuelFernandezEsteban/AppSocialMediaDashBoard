@@ -1,0 +1,19 @@
+
+    <div class="box-content">
+        <div class="box-head">
+            <img src="{{item.icon_src}}" alt="{{item.icon_alt}}">
+            <span>{{item.id}}</span>
+        </div>
+        <div class="box-followers">
+            <h2>{{item.followers}}</h2>
+            <h3 *ngIf="item.red!='youTube'">Followers</h3>
+            <h3 *ngIf="item.red==='youTube'">Subscribers</h3>
+
+        </div>
+        <div class="box-foot">
+            <img *ngIf="color(item.today)==='red'" src="../../../assets/images/icon-down.svg" alt="icon down">
+            <img *ngIf="color(item.today)==='green'" src="../../../assets/images/icon-up.svg" alt="icon up">
+            <span [ngClass]="color(item.today)">{{item.today}} Today</span>
+        </div>
+    </div>
+

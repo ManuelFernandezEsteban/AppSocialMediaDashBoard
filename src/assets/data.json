@@ -1,0 +1,96 @@
+{
+    "SocialMedia":{
+        "TotalFollowers":23004,
+        "Media":[
+            {
+                "red":"faceBook",
+                "id":"@nathanf",
+                "followers":1987,
+                "today":12,
+                "icon_src":"./assets/images/icon-facebook.svg",
+                "icon_alt":"icon facebook",
+                "details":{                    
+                    "data":
+                        [                    
+                            {
+                                "pageViews":87,
+                                "increment":3
+                            },
+                            {
+                                "likes":52,
+                                "increment":-2
+                            }
+                        ]
+                    }
+            },
+            
+            {
+                "red":"twitter",
+                "id":"@nathanf",
+                "followers":1044,
+                "today":99,
+                "icon_src":"./assets/images/icon-twitter.svg",
+                "icon_alt":"icon twitter",
+                "details":{
+                    "data":
+                    [
+                        {
+                            "pageViews":177,
+                            "increment":303
+                        },
+                        {
+                            "likes":507,
+                            "increment":553
+                        }
+                    ]
+                }
+                
+            },
+            {
+                "red":"instagram",
+                "id":"@realnathanf",
+                "followers":"11k",
+                "today":1099,
+                "icon_src":"./assets/images/icon-instagram.svg",
+                "icon_alt":"icon instagram",
+                "details":{
+                     "data":[
+                        {
+                            "pageViews":5462,
+                            "increment":2257
+                        },
+                        {
+                            "likes":"52k",
+                            "increment":1375
+                        }
+                    ]
+                }
+            },
+            {
+                "red":"youTube",
+                "id":"Nathan F.",
+                "followers":"8239",
+                "today":-144,
+                "icon_src":"./assets/images/icon-youtube.svg",
+                "icon_alt":"icon you tube",
+                "details":{
+                    "data":[
+                        {
+                            "pageViews":107,
+                            "increment":-19
+                        },
+                        {
+                            "likes":"1407",
+                            "increment":-12
+                        }
+                    ]
+                }
+
+                    
+            }
+            
+
+        ]
+    }
+}
+

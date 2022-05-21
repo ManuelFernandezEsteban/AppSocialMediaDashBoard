@@ -1,0 +1,72 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cardBGColor);
+    position: relative;
+    min-height: 100vh;
+}
+
+.box-content{
+    position: absolute;
+    height: 98%;
+    width: 100%;
+    bottom: 0%; 
+    left: 0px;   
+    background-color: var(--cardBGColor);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.box-content:hover{    
+    background-color: var(--cardBGColorHover)
+}
+.box-head{
+    display: flex;
+    align-items: center;
+    color: var(--textSecundary);
+    flex: 1;
+}
+.box-head > img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.box-head > span{
+    font-size: 0.9rem;
+}
+.box-followers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.box-followers > h2{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--textPrincipal);
+}
+
+.box-followers > h3{
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--textSecundary);
+    letter-spacing: 0.2rem;
+}
+.box-foot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+.box-foot > span{
+    
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
