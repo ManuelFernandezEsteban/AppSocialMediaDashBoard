@@ -26,6 +26,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .wrapper_content_inf > span{
@@ -34,7 +35,9 @@
     font-weight: 700;
     align-self:center;
 }
-
+.centerHV{
+    margin-right: 30px;
+}
 .line{
     background-color: var(--textPrincipal);
     width: 100%;
