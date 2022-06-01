@@ -25,10 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop dark](./src/assets/screenshots/ScreenshotDesktopDarkAppSocialMediaDashboard.png)
-![Desktop light](./src/assets/screenshots/ScreenshotDesktopLightAppSocialMediaDashboard.png)
-![Mobile dark](./src/assets/screenshots/ScreenshotMobileDarkAppSocialMediaDashboard.png)
-![Mobile light](./src/assets/screenshots/ScreenshotMobileLightAppSocialMediaDashboard.png)
+![mobile dark](./screenShots/Screenshot%202022-06-01%20at%2021-32-16%20AppSocialMediaDashboard.png)
+![mobile light](./screenShots/Screenshot%202022-06-01%20at%2021-32-00%20AppSocialMediaDashboard.png)
+![tablet dark](./screenShots//Screenshot%202022-06-01%20at%2021-32-33%20AppSocialMediaDashboard.png)
+![tablet light](./screenShots/Screenshot%202022-06-01%20at%2021-32-39%20AppSocialMediaDashboard.png)
+![desktop dark](./screenShots/Screenshot%202022-06-01%20at%2021-31-17%20AppSocialMediaDashboard.png)
+![desktop light](./screenShots/Screenshot%202022-06-01%20at%2021-31-28%20AppSocialMediaDashboard.png)
 
 ### Links
 
