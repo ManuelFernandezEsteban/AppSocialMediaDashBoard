@@ -7,16 +7,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: var(--VeryDarkBlue);
-        position: relative;
-        min-height: 100vh;
-   
-}
+
+
 :root{
 
     
@@ -78,6 +70,8 @@ app-root{
     --textPrincipal: hsl(230, 17%, 14%);
 }
 
+
+
 .faceBook{
     background-color: var(--Facebook);
 }
@@ -96,3 +90,31 @@ app-root{
 .red{
     color: var(--BrightRed);
 }
+
+body{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: hsl(230, 17%, 14%);*/
+    position: relative;
+    min-height: 100vh;
+
+}
+
+.colorBodyDark{
+    background-color: hsl(230, 17%, 14%);
+}
+
+.colorBodyLight{
+    background-color: hsl(0, 0%, 100%);
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: var(--boxSupBG);
+}
+
