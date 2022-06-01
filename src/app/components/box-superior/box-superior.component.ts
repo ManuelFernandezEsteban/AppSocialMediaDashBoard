@@ -13,6 +13,7 @@ export class BoxSuperiorComponent implements OnInit {
 
   mode:string='Dark';
   public raiz = document.querySelector("#raiz");
+  public body = document.querySelector("body");
   swCheked:boolean=true;
   cssUrl:string='';
 
@@ -30,10 +31,14 @@ export class BoxSuperiorComponent implements OnInit {
       this.mode='Light';
       this.raiz?.classList.remove('Dark');
       this.raiz?.classList.add('Light');
+      this.body?.classList.remove('colorBodyDark');
+      this.body?.classList.add('colorBodyLight');
     }else{
       this.mode='Dark'
       this.raiz?.classList.remove('Light');
       this.raiz?.classList.add('Dark');
+      this.body?.classList.remove('colorBodyLight');
+      this.body?.classList.add('colorBodyDark');
     }   
 
     
