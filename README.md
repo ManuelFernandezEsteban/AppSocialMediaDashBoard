@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Repo Git hub](https://github.com/ManuelFernandezEsteban/appSocialMediaDashboard.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
